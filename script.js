@@ -38,6 +38,25 @@ function loadContent(url) {
     fetch(url)
         .then(response => response.text())
         .then(data => {
-            document.getElementById('content').innerHTML = marked.parse(data);
+            const content = document.getElementById('content');
+            content.innerHTML = marked.parse(data);
+            addCopyButtons();
         });
+}
+
+function addCopyButtons() {
+    document.querySelectorAll('pre code').forEach((block) => {
+        const button = document.createElement('button');
+        button.className = 'copy-button';
+        button.textContent = '复制';
+        button.addEventListener('click', () => {
+            navigator.clipboard.writeText(block.textContent).then(() => {
+                button.textContent = '已复制';
+                setTimeout(() => {
+                    button.textContent = '复制';
+                }, 2000);
+            });
+        });
+        block.parentNode.appendChild(button);
+    });
 }
