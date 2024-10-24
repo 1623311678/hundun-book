@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', function() {
             const menu = document.getElementById('menu');
             buildMenu(menu, data);
         });
+
+    const menuToggle = document.getElementById('menu-toggle');
+    const sidebar = document.getElementById('sidebar');
+
+    menuToggle.addEventListener('click', function() {
+        sidebar.classList.toggle('open');
+    });
 });
 
 function buildMenu(parent, items) {

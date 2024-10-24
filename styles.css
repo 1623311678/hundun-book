@@ -18,6 +18,18 @@ header {
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.menu-toggle {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
 }
 
 .main {
@@ -65,4 +77,23 @@ footer {
     padding: 10px;
     text-align: center;
     box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        display: none;
+    }
+
+    .sidebar.open {
+        display: block;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
 }
