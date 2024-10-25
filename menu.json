@@ -1,25 +1,29 @@
 [
     {
-      "title": "部分 1",
-      "url": "content/section1.md",
+      "title": "网络与安全",
+      "url": "content/network-safe.md",
       "children": [
         {
-          "title": "子部分 1.1",
-          "url": "content/subsection1_1.md"
+          "title": "HTTP部分",
+          "url": "content/network-safe-http.md"
         },
         {
-          "title": "子部分 1.2",
-          "url": "content/subsection1_2.md"
+          "title": "网络安全",
+          "url": "content/network-safe-section.md"
         }
       ]
     },
     {
-      "title": "部分 2",
-      "url": "content/section2.md"
+      "title": "算法",
+      "url": "content/algorithm.md"
     },
     {
-      "title": "部分 3",
-      "url": "content/section3.md"
+      "title": "事件循环",
+      "url": "content/event-loop.md"
+    },
+    {
+      "title": "布局",
+      "url": "content/layout.md"
     }
   ]
   
