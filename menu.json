@@ -1,5 +1,9 @@
 [
   {
+    "title": "经典书籍",
+    "url": "content/book.md"
+  },
+  {
     "title": "数据类型",
     "url": "content/datatype.md"
   },
