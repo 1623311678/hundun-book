@@ -1,4 +1,8 @@
 [
+  {
+    "title": "数据类型",
+    "url": "content/datatype.md"
+  },
     {
       "title": "网络与安全",
       "url": "content/network-safe.md",
@@ -24,6 +28,10 @@
     {
       "title": "布局",
       "url": "content/layout.md"
+    },
+    {
+      "title": "原型链",
+      "url": "content/prototype.md"
     }
   ]
   

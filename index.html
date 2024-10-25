@@ -30,6 +30,19 @@
     </div>
     <script src="https://cdn.bootcdn.net/ajax/libs/marked/2.0.0/marked.min.js"></script>
     <script src="script.js"></script>
-  
+    <script></script>
   </body>
+  <script>
+    const arr1 = [1, 2, 3];
+    Array.prototype.myMap = function (callback) {
+      const arr = this;
+      const newArr = [];
+      for (let i = 0; i < arr.length; i++) {
+        const newVal = callback(arr[i], i, arr);
+        newArr.push(newVal);
+      }
+      return newArr;
+    };
+    console.log(arr1.myMap((item) => item * 2));
+  </script>
 </html>
