@@ -5,37 +5,31 @@
   },
   {
     "title": "数据类型",
-    "url": "content/datatype.md"
+    "url": "content/数据类型.md"
+  },
+  {
+    "title": "HTTP部分",
+    "url": "content/HTTP.md"
+  },
+  {
+    "title": "网络安全",
+    "url": "content/网络安全.md"
   },
     {
-      "title": "网络与安全",
-      "url": "content/network-safe.md",
-      "children": [
-        {
-          "title": "HTTP部分",
-          "url": "content/network-safe-http.md"
-        },
-        {
-          "title": "网络安全",
-          "url": "content/network-safe-section.md"
-        }
-      ]
-    },
-    {
       "title": "算法",
-      "url": "content/algorithm.md"
+      "url": "content/算法.md"
     },
     {
       "title": "事件循环",
-      "url": "content/event-loop.md"
+      "url": "content/事件循环.md"
     },
     {
-      "title": "布局",
-      "url": "content/layout.md"
+      "title": "常见布局",
+      "url": "content/常见布局.md"
     },
     {
       "title": "原型链",
-      "url": "content/prototype.md"
+      "url": "content/原型链.md"
     }
   ]
   
