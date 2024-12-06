@@ -42,6 +42,10 @@
     {
       "title": "接口风格",
       "url": "content/接口风格.md"
+    },
+    {
+      "title": "vue虚拟dom",
+      "url": "vue虚拟dom.md"
     }
   ]
   
