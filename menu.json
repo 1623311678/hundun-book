@@ -45,7 +45,11 @@
     },
     {
       "title": "vue虚拟dom",
-      "url": "vue虚拟dom.md"
+      "url": "content/vue虚拟dom.md"
+    },
+    {
+      "title": "vue源码入口分析",
+      "url": "content/vue源码入口分析.md"
     }
   ]
   

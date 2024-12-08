@@ -32,20 +32,4 @@
     <script src="script.js"></script>
     <script></script>
   </body>
-  <script>
-    // 组合继承
-   function Persion(){
-     this.name = '人类'
-   }
-   function Student(){
-     Persion.call(this);
-     this.age = 0
-   }
-   Student.prototype = new Persion()
-   Student.prototype.constructor = Student; // 修正 Student.prototype.constructor 指向 Student
-   const stu = new Student()
-   stu.name = '学生'
-   console.log(stu.name)
-
-  </script>
 </html>
