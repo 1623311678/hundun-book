@@ -50,6 +50,10 @@
     {
       "title": "vue源码入口分析",
       "url": "content/vue源码入口分析.md"
+    },
+    {
+      "title": "常见插件开发",
+      "url": "content/常见插件开发.md"
     }
   ]
   
