@@ -4,6 +4,10 @@
     "url": "content/book.md"
   },
   {
+    "title": "js",
+    "url": "content/js.md"
+  },
+  {
     "title": "数据类型",
     "url": "content/数据类型.md"
   },
