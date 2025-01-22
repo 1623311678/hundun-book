@@ -7,6 +7,11 @@
     "title": "js",
     "url": "content/js.md"
   },
+
+  {
+    "title": "性能优化",
+    "url": "content/性能优化.md"
+  },
   {
     "title": "数据类型",
     "url": "content/数据类型.md"
