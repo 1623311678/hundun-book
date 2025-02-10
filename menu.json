@@ -63,6 +63,14 @@
     {
       "title": "常见插件开发",
       "url": "content/常见插件开发.md"
+    },
+    {
+      "title": "React",
+      "url": "content/React.md"
+    },
+    {
+      "title": "Vue",
+      "url": "content/Vue.md"
     }
   ]
   
