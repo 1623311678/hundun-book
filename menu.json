@@ -7,7 +7,10 @@
     "title": "js",
     "url": "content/js.md"
   },
-
+  {
+    "title": "小程序",
+    "url": "content/小程序.md"
+  },
   {
     "title": "性能优化",
     "url": "content/性能优化.md"
